@@ -1,0 +1,263 @@
+@font-face {
+
+    font-family: 'LEMON MILK';
+    src: url('../fonts/lemonmilk-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lemonmilk-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/lemonmilk-regular.woff2') format('woff2'), /* Modern Browsers */
+        url('../fonts/lemonmilk-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/lemonmilk-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/lemonmilk-regular.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.banniere{
+	background-color: rgb(0, 0, 0,0.8);
+	color: white;
+	font-family: "LEMON MILK";
+	font-size: 3rem;
+	text-align: center;
+	margin-bottom: 5rem;
+	padding: 2rem 0rem 2rem 0rem;
+}
+
+
+.artistes {
+	display: flex;
+
+	overflow: hidden;
+	max-width: 1400px;
+	
+	margin: 0 auto;
+	width: 1400px;
+	position: relative;
+	flex-wrap: wrap;
+	color: white;
+
+
+
+
+
+}
+
+.jour{
+	display: none;
+	font-family: "LEMON MILK"
+
+	
+}
+
+.artiste:hover > .jour {
+	display: block;
+	background-color: black;
+	
+	position: absolute;
+	bottom: 0rem;
+	
+	text-align: center;
+	padding-right: 100%;
+	padding-left: 110px;
+	
+	padding-top: 1rem;
+	padding-bottom:1rem;
+	
+
+
+} 
+
+.desc {
+	max-width: 200px;
+	visibility: hidden;
+	font-family: "LEMON MILK";
+	font-size: 1..4rem;
+
+	
+}
+
+.artiste:hover > .desc {
+	visibility: visible;
+	position: relative;
+	left: 60px;
+	top: 2rem;
+	background-color: rgb(0, 0, 0,0.5);
+	padding: 1rem 0.5rem 1rem 0.5rem;
+
+}
+
+.artiste{
+	max-height: 500px;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+
+.nom {
+	font-family: "LEMON MILK";
+	font-size: 2rem;
+	position: absolute;
+	left: 8%;
+	top: 5%;
+
+}
+
+.artiste:hover > .nom {
+	visibility: hidden;
+
+}
+
+#artiste1{
+	background-image: url("../photo_artist/Artiste1.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+
+
+#artiste2{
+	background-image: url("../photo_artist/Justice.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste3{
+	background-image: url("../photo_artist/entourloop.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste4{
+	background-image: url("../photo_artist/Artiste2.png");
+
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste5{
+	background-image: url("../photo_artist/Artiste6.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste6{
+	background-image: url("../photo_artist/Biga.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste7{
+	background-image: url("../photo_artist/Artiste7.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste8{
+	background-image: url("../photo_artist/Mika.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste9{
+	background-image: url("../photo_artist/use.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste10{
+	background-image: url("../photo_artist/Artiste8.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste11{
+	background-image: url("../photo_artist/Artiste1.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste12{
+	background-image: url("../photo_artist/naaman.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste13{
+	background-image: url("../photo_artist/Artiste1.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste14{
+	background-image: url("../photo_artist/Artiste4.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste15{
+	background-image: url("../photo_artist/Artiste5.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+#artiste16{
+	background-image: url("../photo_artist/snake.png");
+	padding-bottom: 294px;
+	padding-right: 141.4px;
+
+}
+
+#artiste1:hover{
+	background-position: top 500px left 0px;
+}
+
+#artiste2:hover{
+	background-position: top 500px left -7px;
+}
+
+#artiste3:hover{
+	background-position: top 499px left 0px;
+}
+
+#artiste4:hover{
+	background-position: top 475px left 0px;
+}
+
+#artiste5:hover{
+	background-position: top 500px left 0px;
+}
+#artiste6:hover{
+	background-position: top 500px left 0px;
+}
+#artiste7:hover{
+	background-position: top 498px left -10px;
+}
+#artiste8:hover{
+	background-position: top 500px left 0px;
+}
+#artiste9:hover{
+	background-position: top 500px left 0px;
+}
+#artiste10:hover{
+	background-position: top 500px left 0px;
+}
+#artiste11:hover{
+	background-position: top 500px left 0px;
+}
+#artiste12:hover{
+	background-position: top 500px left 0px;
+}
+#artiste13:hover{
+	background-position: top 500px left 0px;
+}
+#artiste14:hover{
+	background-position: top 497px left 0px;
+}
+#artiste15:hover{
+	background-position: top 500px left 0px;
+}
+#artiste16:hover{
+	background-position: top 500px left 0px;
+}
+
+
