@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les Nuits Blanches</title>
+        <meta charset="UTF-8">
+        <link href="../css/normalize.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="../Styles_CSS/infos.css">
+        <link href="../Styles_CSS/main_css.css" rel="stylesheet" type="text/css"/>
+        
+        
+    </head>
+
+    <body>
+
+        <section id="intro">
+            <h2 id="titre">Infos pratique</h2>
+            <p id="intro2">Début du festival dans...</p>
+
+        </section>
+
+        <section id="banner" >
+            <p id="compteur"></p>
+            
+            <script>
+                
+                var countDownDate = new Date("August 20, 2021 15:37:25").getTime();
+
+                
+                var x = setInterval(function() {
+
+                  
+                  var now = new Date().getTime();
+                    
+                  
+                  var distance = countDownDate - now;
+                    
+                  
+                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+                  
+                  document.getElementById("compteur").innerHTML = days + "d " + hours + "h "
+                  + minutes + "m " + seconds + "s ";
+                    
+                   
+                  if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("compteur").innerHTML = "EXPIRED";
+                  }
+
+                  if (seconds % 2 == 0) {
+                    var a = document.getElementById("banner").style.backgroundPosition = "top -26.9rem left  0";
+                    
+                  }
+
+                  else if (seconds % 2 != 0) {
+                    var a = document.getElementById("banner").style.backgroundPosition = "top 1rem left  0";
+                  }
+
+
+
+
+                  
+
+                }, 1000);
+
+                
+            </script>
+        </section>
+
+        <section class="infos">
+            
+            <div>
+                <h2 class="titre2" id="acces">ACCES</h2>
+                <p>LA CITADELLE <br/> Bd Du Gl De Gaulle, Arras 62000</p>
+            </div>
+
+            <div>
+                <h2 class="titre2">SUR PLACE</h2>
+                    <h3 class="sous-titres">Comment y accéder :</h3>
+                        <p> 
+                            <span class="oui" id="oui1">En voiture</span><br/>
+                            Pensez au covoiturage!<br/>
+                            Des parkings gratuits seront mis à disposition des festivaliers dans et aux abords d'Arras.
+                        </p>
+
+                        <p>
+                            <span class="oui">En train</span><br/>
+                            La gare d'Arras est desservie par de nombreuses lignes (TGV et TER) et se situe à moins de 15min à pied de la Citadelle. <br/>Des navettes-bus gratuites entre la gare et la Citadelle sont également mises en place pendant toute la durée du festival.
+                        </p>
+
+                        <p>
+                            <span class="oui">Avion</span><br/>
+                            Aéroport de Lille - Lesquin<br/>
+                            Situé au sud de Lille, l'aéroport de Lille – Lesquin est à 45 km d'Arras.<br/>
+                            Plus de renseignements sur <a href="www.lille.aeroport.fr">www.lille.aeroport.fr</a> 
+                        </p>
+                    
+                    <h3 class="sous-titres">Restauration</h3>
+                        <p>
+                            De nombreux stand sont mis à votre disposition pour prendre des forces et vous hydrater tout au long de l'expérience. <br/>Des alternatives vegans et gluten free seront proposées.
+                            L'achat de boisson et/ou nourriture se fait avec le système de paiement dématérialisé Cashless. <br/>(ainsi que tout achat de merchandising).
+                        </p>
+                    <h3 class="sous-titres">SECURITE</h3>
+                        <p>De nombreux casiers sont mis à la disposition des visiteurs à l'entrée du festival.</p>
+                    <h3 class="sous-titres">SERVICES</h3>
+                        <p>
+                            Le camping du festival met à votre disposition :<br/>
+                            - des sanitaires avec douches<br/>
+                            - un stand petit-déjeuner ouvert jusqu’à 12:00<br/>
+                            - un bar ouvert de 12:00 à 18:00 (aucun alcool fort n'est vendu pendant le festival) <br/>- un magasin de dépannage (alimentation/hygiène/merchandising)<br/>
+                            - un stand restauration<br/>
+                            - Des bornes de cashless.<br/>
+                            - un stand de recharge de téléphones<br/>
+                            - une tente collective pour partager des moments<br/>
+                            - des animations avec des goodies à gagner<br/>
+                            - un grand tipi éclairé sera disponible pour les couche-tard<br/>
+                        </p>
+                    <h3 class="sous-titres">CAMPING</h3>
+                    <p>
+                        Le camping rend prioritaires les  pass 3jours .Seules les tentes sont acceptées.<br/>
+                        Accessible à pied depuis le site du festival, le camping est spécialement aménagé à proximité de la Citadelle. <br/>Il est situé au niveau de l'avenue Jean Zay et près du lycée Savary. <br/>Des navettes assureront la desserte entre la gare SNCF et le camping.<br/>
+                        Le camping ouvrira ses portes le Vendredi 6 Août à 13h et restera accessible jusqu'à la fermeture qui interviendra le Lundi 9 Juillet à 12h.<br/>
+
+                        Si vous ne campez qu'une seule nuit, vous devez libérer votre emplacement pour 12h le lendemain.
+
+                    </p>
+
+
+
+            </div>
+
+        </section>
+        
+    </body>
+
+</html>
