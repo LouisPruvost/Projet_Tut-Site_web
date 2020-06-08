@@ -43,29 +43,32 @@
 }
 
 .jour{
-	display: none;
-	font-family: "LEMON MILK"
-
-	
-}
-
-.artiste:hover > .jour {
-	display: block;
+	visibility: hidden;
+	font-family: "LEMON MILK";
 	background-color: black;
-	
-	position: absolute;
-	bottom: 0rem;
-	
 	text-align: center;
 	padding-right: 100%;
 	padding-left: 110px;
 	
 	padding-top: 1rem;
 	padding-bottom:1rem;
+	bottom: 0rem;
+	position: absolute;
 	
 
+	
+}
 
-} 
+.artiste:hover > .jour {
+	visibility: visible;
+	background-color: white;
+	color: black;
+	transition-duration: 2s;
+}
+
+#artiste6 > .nom{
+	color: rgb(0,0,0);
+}
 
 .desc {
 	max-width: 200px;
@@ -83,6 +86,7 @@
 	top: 2rem;
 	background-color: rgb(0, 0, 0,0.5);
 	padding: 1rem 0.5rem 1rem 0.5rem;
+	transition-duration: 1s;
 
 }
 
