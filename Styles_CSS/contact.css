@@ -1,0 +1,96 @@
+.contact {
+	background-color: white;
+	max-width: 30%;
+	text-align: center;
+	position: relative;
+	left: 60%;
+	top: 80px;
+	border-radius: 6px;
+	height: 80%;
+	overflow: hidden;
+	border: solid 2px rgb(96, 96, 96,1);
+  	
+}
+
+
+.banner {
+	background-color: rgb(0,0,0,0.8);
+	position: relative;
+	height: 800px;
+	background-image: url("../photo_artist/oui.jpg");
+	background-position: top 0 left  15rem;
+	
+}
+.contact  form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact > form input{
+	max-width: 80%;
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 2rem;
+	border-radius: 2px;
+	border: solid 1px rgb(96, 96, 96,0.5);
+	height: 1.8rem;
+
+}
+
+.contact > form input:hover{
+	border: solid 0.5px black;
+}
+
+.contact > form label{
+	margin-right: 72%;
+}
+
+#mess3 {
+	margin-left: 5%;
+}
+
+#titre {
+	font-size: 2.5rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	
+	color:#0069b8;
+}
+
+#bouton {
+	border-radius:12px 0 12px 0;
+	
+	border:solid 1px #478bf9;
+	color:#0069b8;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	transition-duration: 0.5s;
+}
+
+#bouton:hover {
+	background: #0069b8;
+	color: white;
+}
+
+.contact > h2{
+	color:#0069b8;
+
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+}
+
+textarea {
+	width: 80%;
+	max-width: 80%;
+	margin: 0 auto;
+	border: solid 1px rgb(96, 96, 96,0.5);
+	height: 280px;
+	border-radius: 2px;
+}
+
+textarea:hover {
+	border: solid 0.5px black;
+
+
+}
