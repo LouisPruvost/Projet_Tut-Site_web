@@ -57,5 +57,13 @@
     
     ?>
 
+    <section class="footer">
+
+            <img id="fin" src="../photo_artist/footer.png" id="logoAgence">
+            
+
+            
+        </section>
+
 </body>
 </html>
