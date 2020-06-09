@@ -25,6 +25,7 @@
 
 #communiqué {
 	margin-left: 180px;
+	margin-right: 50px;
 }
 
 
@@ -47,6 +48,63 @@ h2 {
 	transition-duration: 1s;
 	
 }
+
+.rec > div {
+	height: 800px;
+
+}
+
+#photo2 {
+	width: 100%;
+}
+
+a{
+	
+	position: relative;
+}
+a > div {
+	background-color: rgb(254, 253, 240,0.4);
+	position: absolute;
+	width: 100%;
+	height: 750px;
+	top: -760px;
+	border-radius: 5px;
+	border:solid 1px rgb(0,0,0,0.4);
+}
+
+.overlay {
+	padding-left: -50px;
+
+
+}
+
+.overlay2{
+	top: -1070px;
+	height: 790px;
+}
+
+.overlay2:hover {
+	background-color: #0069b8;
+	opacity: 70%;
+}
+
+.overlay:hover  {
+	background-color: #ff1739;
+	opacity: 60%;
+}
+
+#dossier_presse{
+	margin-left: 70px;
+}
+
+a > div:hover {
+	background-color: rgb(250, 240, 197,0.6);
+	transition-duration: 1s;
+	border:solid 1px rgb(0,0,0,0.8);
+
+}
+
+
 
 
 
