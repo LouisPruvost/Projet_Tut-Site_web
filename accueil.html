@@ -1,44 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html id="swuptheme">
     <head>
         <title>Les Nuits Blanches</title>
         <meta charset="UTF-8">
-        <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
+        <link href="Styles_CSS/normalize.css" rel="stylesheet" type="text/css"/>
         <link href="Styles_CSS/main_css.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="Styles_CSS/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="Styles_CSS/slick/slick-theme.css"/>
     </head>
 
-    <body>
+    <body id="swup" class="transition">
         <header>
-
+            <img src="Images/tete.png"></img>
         </header>
 
         <nav>
         <div>
-            <h2>ACCUEIL</h2>
+            <a href="accueil.html">ACCUEIL</a>
         </div>
         <div>
-            <h2>INFOS</h2>
+            <a href="Autres_Pages/infos.html">INFOS</a>
         </div> 
         <div>
-            <h2>ARTISTES</h2>
+            <a href="Autres_Pages/artistes.html">ARTISTES</a>
         </div>
         <div>
-            <h2>BILLETTERIE</h2>
+            <a href="Autres_Pages/billetterie.html">BILLETTERIE</a>
         </div>
         <div>
-            <h2>MAGASIN</h2>
+            <a href="Autres_Pages/magasin.html">MAGASIN</a>
         </div> 
         <div>
-            <h2>PARTENAIRES</h2>
+            <a href="Autres_Pages/partenaires.html">PARTENAIRES</a>
         </div>  
         <div>
-            <h2>CONTACT</h2>
+            <a href="Autres_Pages/contact.php">CONTACT</a>
         </div> 
         <div>
-            <h2>PRESSE</h2>
+            <a href="Autres_Pages/presse.html">PRESSE</a>
         </div>
         <div>
-            <h2>TELECHARGEABLES</h2>
+            <a href="Autres_Pages/telechargeables.html">TELECHARGEABLES</a>
         </div>  
         </nav>
 
@@ -102,13 +105,70 @@
         </section>
 
         <section class="sponsors-partenaires">
-            
-
+            <div>
+                <a href="https://www.arras.fr/" target="_blank">
+                    <img src="Images/arras.png" style="max-width: 100px;max-height: 100px;" title="Ville d'Arras">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.creditmutuel.fr/home/index.html" target="_blank">
+                    <img src="Images/creditmutuel.png" style="max-width: 100px;max-height: 100px;" title="Crédit Mutuel">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.deezer.com/fr/" target="_blank">
+                    <img src="Images/deezer.png" style="max-width: 100px;max-height: 100px;" title="Deezer">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.ecocup.fr/fr/" target="_blank">
+                    <img src="Images/ecocup.png" style="max-width: 100px;max-height: 100px;" title="Ecocup">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.enercoop.fr/" target="_blank">
+                    <img src="Images/enercoop.png" style="max-width: 100px;max-height: 100px;" title="enercoop">
+                </a>
+            </div>
+            <div>
+                <a href="http://brasserie-goudale.com/" target="_blank">
+                    <img src="Images/goudale.png" style="max-width: 100px;max-height: 100px;" title="Brasserie Goudale">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.hautsdefrance.fr/" target="_blank">
+                    <img src="Images/hdf.png" style="max-width: 100px;max-height: 100px;" title="Région Hauts-de-France">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.sacem.fr/" target="_blank">
+                    <img src="Images/sacem.png" style="max-width: 100px;max-height: 100px;" title="sacem">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.virginradio.fr/" target="_blank">
+                    <img src="Images/virginradio.png" style="max-width: 100px;max-height: 100px;" title="Virgin Radio">
+                </a>
+            </div>
         </section>
 
         <footer>
 
             
         </footer>
+ 
+        <script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="Styles_CSS/slick/slick.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.sponsors-partenaires').slick({
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                });
+            });
+        </script>
     </body>
 </html>

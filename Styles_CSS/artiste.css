@@ -12,6 +12,14 @@
 
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "LEMON MILK";
+
+}
+
 
 .banniere{
 	background-color: rgb(0, 0, 0,0.8);
@@ -23,22 +31,20 @@
 	padding: 2rem 0rem 2rem 0rem;
 }
 
+.banniere > h1 {
+	font-family: "LEMON MILK";
+}
+
 
 .artistes {
 	display: flex;
-
 	overflow: hidden;
 	max-width: 1400px;
-	
 	margin: 0 auto;
 	width: 1400px;
 	position: relative;
 	flex-wrap: wrap;
 	color: white;
-
-
-
-
 
 }
 
@@ -175,7 +181,7 @@
 
 }
 #artiste11{
-	background-image: url("../photo_artist/Artiste1.png");
+	background-image: url("../photo_artist/Her.png");
 	padding-bottom: 294px;
 	padding-right: 141.4px;
 
@@ -187,7 +193,7 @@
 
 }
 #artiste13{
-	background-image: url("../photo_artist/Artiste1.png");
+	background-image: url("../photo_artist/Artiste3.png");
 	padding-bottom: 294px;
 	padding-right: 141.4px;
 
@@ -263,5 +269,34 @@
 #artiste16:hover{
 	background-position: top 500px left 0px;
 }
+
+.footer {
+	background-color: rgb(0,0,0,0.8);
+	margin-top: 2rem;
+	max-height: 180px;
+	position: relative;
+
+}
+
+#fin {
+	width: 100%;
+	position: relative;
+	top: -35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

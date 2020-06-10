@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "LEMON MILK";
+
+
 }
 
-@font-face {
+body {
+    font-family: 'Montserrat';font-size: 22px;
+}
 
     font-family: 'LEMON MILK';
     src: url('../fonts/LEMONMILK-regular.otf'); /* IE9 Compat Modes */
