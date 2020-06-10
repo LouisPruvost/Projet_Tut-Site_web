@@ -141,3 +141,9 @@ textarea:hover {
 #tw {
 	background-image: url("../photo_artist/twitter.png");
 }
+
+@media screen and (max-width: 1000px) { 
+ 	.contact {
+ 		height: 90%;
+ 	}
+} 

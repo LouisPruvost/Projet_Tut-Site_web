@@ -99,6 +99,7 @@ a {
 
 .infos {
 	line-height: 1.8rem;
+	max-width: 1600px;
 }
 
 #acces {
