@@ -34,9 +34,13 @@ h1{
 }
 h2 {
 	font-family: "LEMON MILK";
+	
 	color: #0069b8;
 	font-size: 4rem;
-	}
+	
+
+
+}
 
 h3{
 	font-family: "LEMON MILK";
@@ -102,6 +106,7 @@ a > div {
 	margin-top: 2rem;
 	max-height: 180px;
 	position: relative;
+	bottom: 0;
 
 }
 
@@ -144,5 +149,12 @@ a > div {
 	background-image: url("../photo_artist/twitter.png");
 }
 
+ @media screen and (max-width: 1000px) { 
+  
 
+  .div-menu {
+    flex-direction: column;
+    max-height: 300px;
 
+  }
+} 

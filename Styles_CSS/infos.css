@@ -82,9 +82,9 @@ a {
 }
 
 .infos {
-	position: relative;
-	left: 15%;
 	max-width: 1000px;
+	position: relative;
+	left: 20%;
 }
 
 .sous-titres {
@@ -196,6 +196,16 @@ h1{
     display: table-cell;
     vertical-align: middle;
 }
+
+@media screen and (max-width: 1000px) { 
+  
+
+  .div-menu {
+    flex-direction: column;
+    max-height: 300px;
+
+  }
+} 
 
 
 
