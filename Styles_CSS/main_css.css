@@ -53,6 +53,19 @@ body {
     margin-right: auto;
 }
 
+#desc {
+    text-align: center;
+    width: 85%;
+    position: relative;
+    display: block;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px black;
+
+
+}
+
 .videopromo div {
     padding: 50px;
     border-bottom: 50px solid black;
