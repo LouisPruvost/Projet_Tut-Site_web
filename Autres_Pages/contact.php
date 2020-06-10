@@ -8,7 +8,9 @@
     <link href="../Styles_CSS/main_css.css" rel="stylesheet" type="text/css"/>
 
 </head>
-
+<div id="box1">
+            <h1 class="entete">CONTACT</h1>
+        </div>
 <body>
 	<div id="titre">
 		<h2>CONTACT</h2>
@@ -59,11 +61,18 @@
 
     <section class="footer">
 
-            <img id="fin" src="../photo_artist/footer.png" id="logoAgence">
-            
 
-            
-        </section>
+                <img id="fin" src="../photo_artist/footer.png" id="logoAgence">
+                <div>
+                    <a id="fb"href="https://www.facebook.com/Les-Nuits-Blanches-104617577950478/"></a>
+                    <a id="tw" href="https://twitter.com/les_blanches"></a>
+                    <a id="in" href="https://www.instagram.com/lesnuitsblanches_festival/"></a>
+                </div>
 
+
+
+            </section>
+            <script src="https://unpkg.com/scrollreveal"></script>
+            <script src="../Js/app.js"></script>
 </body>
 </html>

@@ -10,11 +10,9 @@ require '_header.php'
 
 <body>
 
-<section class="entete">
-	<div>
-		<p class="entete-text">Magasin</p>
-	</div>
-</section>
+<div id="box1">
+                <h1 class="entete">MAGASIN</h1>
+            </div>
 
 <div class="menuboutique">
 <div id="flex-items">

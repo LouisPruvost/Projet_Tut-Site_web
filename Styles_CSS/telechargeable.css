@@ -1,0 +1,142 @@
+@font-face {
+
+    font-family: 'LEMON MILK';
+    src: url('../fonts/lemonmilk-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lemonmilk-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/lemonmilk-regular.woff2') format('woff2'), /* Modern Browsers */
+        url('../fonts/lemonmilk-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/lemonmilk-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/lemonmilk-regular.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#box1{
+    height: 200px;
+    width: 100%;
+    background-image: url("../photo_artist/keith-haring-life-work.png");
+    background-size: cover;
+    display: table;
+	background-attachment: fixed;
+	margin-bottom: 30px;
+}
+
+h1{
+	font-family: "LEMON MILK";
+    font-size: 70px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h3{
+	font-family: "LEMON MILK";
+	margin-top: 4rem;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+
+}
+
+.contenu > img{
+	max-width: 800px;
+
+	
+
+}
+
+.telechargeable {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+a > div {
+	background-color: rgb(0,0,0,0.4);
+	position: absolute;
+	width: 800px;
+	height: 300px;
+	top: 0px;
+	
+	border-radius: 5px;
+	border:solid 1px rgb(0,0,0,0.4);
+}
+
+.contenu {
+	position: relative;
+}
+
+.overlay1 {
+	height: 344px;
+}
+.overlay2 {
+	height: 426px;
+}
+.overlay3 {
+	height: 539px;
+}
+.overlay4 {
+	height: 600px;
+}
+
+.overlay5 {
+	height: 338px; 
+}
+
+.overlay:hover {
+	background-color: #0069b8;
+	opacity: 70%;
+	transition-duration: 1s;
+}
+
+.footer {
+	background-color: rgb(0,0,0,0.8);
+	margin-top: 2rem;
+	max-height: 180px;
+	position: relative;
+
+}
+
+#fin {
+	width: 100%;
+	position: relative;
+	top: -35px;
+}
+
+.footer > div {
+	display: flex;
+	position: absolute;
+	top: 34%;
+	height: 50px;
+	left: 45%;
+
+	overflow: hidden;
+	
+
+}
+
+.footer > div > a {
+	height: 50px;
+	width: 100px;
+	margin-left: 0.5rem;
+	background-image: url("../photo_artist/insta.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.footer > div > a:hover {
+	background-position: top -50px left 0;
+}
+
+#fb {
+	background-image: url("../photo_artist/facebook-icon.png");
+}
+
+#tw {
+	background-image: url("../photo_artist/twitter.png");
+}
+
+
+

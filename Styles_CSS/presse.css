@@ -20,6 +20,26 @@
 
 }
 
+#box1{
+    height: 200px;
+    width: 100%;
+    background-image: url("../photo_artist/keith-haring-life-work.png");
+    background-size: cover;
+    display: table;
+	background-attachment: fixed;
+	margin-bottom: 30px;
+}
+
+h1{
+	font-family: "LEMON MILK";
+    font-size: 70px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 
 
 
@@ -104,8 +124,54 @@ a > div:hover {
 
 }
 
+.footer > div {
+	display: flex;
+	position: absolute;
+	top: 34%;
+	height: 50px;
+	left: 45%;
+
+	overflow: hidden;
+	
+
+}
+
+.footer > .reseaux > a {
+	height: 50px;
+	width: 100px;
+	margin-left: 0.5rem;
+	background-image: url("../photo_artist/insta.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.footer > div > a:hover {
+	background-position: top -50px left 0;
+}
+
+#fb {
+	background-image: url("../photo_artist/facebook-icon.png");
+}
+
+#tw {
+	background-image: url("../photo_artist/twitter.png");
+}
 
 
 
 
+
+@media screen and (max-width: 1000px) { 
+  .rec {
+  	flex-direction: column;
+  }
+
+  #communiqué{
+  	margin-left: 70px;
+  }
+
+  .overlay2{
+  	top: -1190px;
+  }
+} 
 
