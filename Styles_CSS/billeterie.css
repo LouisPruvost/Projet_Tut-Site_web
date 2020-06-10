@@ -32,6 +32,20 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     box-sizing: inherit;
 }
 
+
+
+p {
+    font-family: "LEMON MILK";
+}
+
+h2 {
+    font-family: "LEMON MILK";
+}
+
+a {
+    font-family: "LEMON MILK";
+}
+
 #box1{
     height: 200px;
     width: 100%;
@@ -584,3 +598,13 @@ button {
 .GD:hover:before {
     transform: translate(-45%, -34%) translateZ(0);
   }
+
+  @media screen and (max-width: 1000px) { 
+  
+
+  .div-menu {
+    flex-direction: column;
+    max-height: 300px;
+
+  }
+} 
