@@ -20,6 +20,26 @@
 
 }
 
+#box1{
+    height: 200px;
+    width: 100%;
+    background-image: url("../photo_artist/keith-haring-life-work.png");
+    background-size: cover;
+    display: table;
+	background-attachment: fixed;
+	margin-bottom: 30px;
+}
+
+h1{
+	font-family: "LEMON MILK";
+    font-size: 70px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 
 
 
