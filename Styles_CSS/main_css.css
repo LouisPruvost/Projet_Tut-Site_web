@@ -10,7 +10,247 @@ body {
     font-family: 'Montserrat';font-size: 22px;
 }
 
+#keith {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 150px;
+    background: url(../Images/keithharing.jpg) 150% / 60%;
+    background-position-y: 60%;
+}
+
+#keith2 {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 150px;
+    background: url(../Images/keithharing.jpg) 150% / 60%;
+    background-position-y: 60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#tete {
+    padding-bottom: 10px;
+    width: 20%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videopromo div {
+    padding: 50px;
+    border-bottom: 50px solid black;
+    border-top: 50px solid black;
+    border-left: 100px solid black;
+    border-right: 100px solid black;
+}
+
+#promo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sponsors-partenaires{
+    width: 60%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#promo {
+    width: 100%;
+    height: 50rem;
+}
+
+nav {
+    background-image: url(../Images/keith2.jpg);
+    background-size: 110%;
+    width: 100%;
+    display: table;
+    background-attachment: fixed;
+    margin-bottom: 3%;
+    background-position: center ;
+}
+
+.inter {
+    background-image: url(../Images/keith2.jpg);
+    background-size: 110%;
+    width: 100%;
+    display: table;
+    background-attachment: fixed;
+    margin-bottom: 3%;
+    background-position: center ;
+}
+
+.inter div {
+    width: 100%;
+    height: 13rem;
+}
+
+.programmation div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.programmation div img {
+    width: 30%;
+    border: solid black 5px;
+}
 
 
 
+hr {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 3%;
+}
+
+.newsletter {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.newsletter div table {
+    padding: 3%;
+    border: solid black 5px;
+    text-align: justify;
+    margin-bottom: 4%;
+}
+
+.map div {
+    flex-wrap: wrap;
+    border: solid black 5px;
+    width: auto;
+}
+
+.map div iframe {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 40rem;
+}
+
+.sponsors-partenaires {
+    position: relative;
+    display: block;
+    margin-left: 18%;
+    margin-right: auto;
+    width: 70%;
+    padding: 1%;
+}
+
+.sponsors-partenaires div a img {
+    width: 40%;
+}
+
+#part {
+    text-align: center;
+}
+
+
+
+
+.main-contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100rem;
+  }
+  
+button {
+    border: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.95);
+    cursor: pointer;
+  }
+  
+.div-menu {
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    max-width: 95%;
+    margin: auto;
+    padding-right: 4%;
+  }
+  
+.button-text {
+    color: black;
+    position: relative;
+    top: 0;
+    display: inline;
+    font-size: 1.3rem;
+    font-size: 800;
+    transition: 0.25s ease-in;
+    transition-delay: 0.1s;
+  }
+  
+.flex-1 {
+    flex: 1;
+    min-width: 25px;
+    margin: 0 auto 25px;
+  }
+  
+.button {
+    padding: 0.7rem 1.5rem;
+    background: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    will-change: transform;
+  }
+  
+.button-mat {
+    color: #5533ff;
+    border: 0px transparent;
+    border-radius: 0.3rem;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.35s;
+    overflow: hidden;
+}
+
+.button-mat:before {
+    content: "";
+    display: block;
+    background: black;
+    position: absolute;
+    width: 200%;
+    height: 500%;
+    border-radius: 100%;
+    transition: 0.36s cubic-bezier(0.4, 0, 1, 1);
+  }
+.button-mat:hover .button-text {
+    color: white;
+  }
+.button-mat:hover {
+    color: transparent;
+  }
+
+  .GD {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+.GD:before {
+    transform: translate(-110%, -110%) translateZ(0);
+  }
+.GD:hover:before {
+    transform: translate(-45%, -34%) translateZ(0);
+  }
 
