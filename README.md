@@ -10,3 +10,4 @@ Pour afficher la boutique, le protocole ci-dessous doit être réalisé afin d'i
 - Lancer MySQL pour que la boutique s'affiche dans le navigateur
 
 Le site est alors opérationnel.
+
