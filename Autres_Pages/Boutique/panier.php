@@ -30,8 +30,8 @@
 	PRIX TTC : <span class="total"><?= number_format($panier->total() * 1.196,2,',',' '); ?> € </span>
 </div>
 <div class="flex-1">
-    <button class="button button-mat GD"><div class="button-text">Acheter</div>
-</button>
+	<button class="button button-mat GD"><div class="button-text">Acheter</button>
+</div>
 </div>
 
 <?php require 'footer.php'; ?>

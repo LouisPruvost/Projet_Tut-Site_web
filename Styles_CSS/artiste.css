@@ -490,6 +490,7 @@ button {
     text-align: center;
     position: relative;
     max-width: 95%;
+    margin: auto;
     padding-right: 4%;
   }
   
@@ -560,8 +561,53 @@ button {
     transform: translate(-45%, -34%) translateZ(0);
   }
 
-  
 
+  .footer {
+	background-color: rgb(0,0,0,0.8);
+	margin-top: 2rem;
+	max-height: 180px;
+	position: relative;
+
+}
+
+#fin {
+	width: 100%;
+	position: relative;
+	top: -35px;
+}
+
+.footer > div {
+	display: flex;
+	position: absolute;
+	top: 34%;
+	height: 50px;
+	left: 45%;
+
+	overflow: hidden;
+	
+
+}
+
+.footer > div > a {
+	height: 50px;
+	width: 100px;
+	margin-left: 0.5rem;
+	background-image: url("../photo_artist/insta.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.footer > div > a:hover {
+	background-position: top -50px left 0;
+}
+
+#fb {
+	background-image: url("../photo_artist/facebook-icon.png");
+}
+
+#tw {
+	background-image: url("../photo_artist/twitter.png");
+}
 
 
 @media screen and (max-width: 1000px) { 

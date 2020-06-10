@@ -1,0 +1,393 @@
+body{
+    background: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box1{
+    height: 200px;
+    width: 100%;
+    background-image: url("../img/keith-haring-life-work.png");
+    background-size: cover;
+    display: table;
+	background-attachment: fixed;
+	margin-bottom: 30px;
+}
+
+h1{
+	font-family: "LEMON MILK";
+    font-size: 70px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menuboutique {
+    width: 77%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    border: lightgray 1px solid;
+
+}
+
+#flex-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+    
+.magasin {
+    margin-right: auto;
+    display: flex;
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.panier{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#separateur{
+    border-right: solid lightgrey 1px;
+}
+
+.articles{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.articles > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.articles > div > div {
+    display: block;
+    text-align: center;
+    flex-basis: 21%;
+    margin-bottom: 20px;
+    background-color: white;
+    transition: 0.7s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    border: lightgray 1px solid;
+}
+
+.articles > div > div:hover {
+    transform: translate3d(0,0,0) scale(1.10);   
+    transition-duration: 0.7s; 
+}
+
+.imgarticle {
+    width: 70%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.imgplus{
+    width: 10%;
+    margin: auto;;
+}
+
+.description{
+    font-size: 15px;
+    color: black;
+}
+
+.prix{
+    font-size: 20px;
+}
+
+.selection{
+    width: 77%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    border: lightgray 1px solid;
+
+}
+
+.MonPanier{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+}
+
+.MonPanier > a > img {
+    border-radius: 15px;
+}
+
+button {
+    border: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.95);
+    cursor: pointer;
+  }
+  
+.div-menu {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+.button-text {
+    color: black;
+    position: relative;
+    top: 0;
+    display: inline;
+    font-size: 1rem;
+    font-size: 700;
+    transition: 0.25s ease-in;
+    transition-delay: 0.1s;
+  }
+  
+.button {
+    padding: 0.7rem 3.5rem;
+    background: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    will-change: transform;
+  }
+  
+.button-mat {
+    color: black;
+    border: 0px transparent;
+    border-radius: 0.3rem;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.35s;
+    overflow: hidden;
+  }
+
+.button-mat:before {
+    content: "";
+    display: block;
+    background: black;
+    position: absolute;
+    width: 200%;
+    height: 500%;
+    border-radius: 100%;
+    transition: 0.36s cubic-bezier(0.4, 0, 1, 1);
+  }
+.button-mat:hover .button-text {
+    color: white;
+  }
+.button-mat:hover {
+    color: transparent;
+  }
+
+.GD {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+.GD:before {
+    transform: translate(-110%, -110%) translateZ(0);
+  }
+.GD:hover:before {
+    transform: translate(-45%, -34%) translateZ(0);
+  }
+
+.prixtotal{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;    
+    border: lightgray 1px solid;
+}
+
+.rowtotal{
+    font-size: 25px;
+}
+
+.footer {
+	background-color: rgb(0,0,0,0.8);
+	margin-top: 2rem;
+	max-height: 180px;
+	position: relative;
+
+}
+
+#fin {
+	width: 100%;
+	position: relative;
+	top: -35px;
+}
+
+.footer > div {
+	display: flex;
+	position: absolute;
+	top: 34%;
+	height: 50px;
+	left: 45%;
+	overflow: hidden;
+}
+
+.footer > div > a {
+	height: 50px;
+	width: 100px;
+	margin-left: 0.5rem;
+	background-image: url("../img/insta.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.footer > div > a:hover {
+	background-position: top -50px left 0;
+}
+
+#fb {
+	background-image: url("../img/facebook-icon.png");
+}
+
+#tw {
+	background-image: url("../img/twitter.png");
+}
+
+
+
+
+
+#tete {
+    padding-bottom: 10px;
+    width: 20%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-image: url(../img/keith2.jpg);
+    background-size: 110%;
+    width: 100%;
+    display: table;
+    background-attachment: fixed;
+    margin-bottom: 3%;
+    background-position: center ;
+}
+
+.main-contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100rem;
+  }
+  
+button {
+    border: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.95);
+    cursor: pointer;
+  }
+  
+.div-menu {
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    max-width: 95%;
+    margin: auto;
+    padding-right: 4%;
+  }
+  
+.button-text {
+    color: black;
+    position: relative;
+    top: 0;
+    display: inline;
+    font-size: 1.3rem;
+    font-size: 800;
+    transition: 0.25s ease-in;
+    transition-delay: 0.1s;
+  }
+  
+.flex-1 {
+    flex: 1;
+    min-width: 25px;
+    margin: 0 auto 25px;
+  }
+  
+.button {
+    padding: 0.7rem 1.5rem;
+    background: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    will-change: transform;
+  }
+  
+.button-mat {
+    color: #5533ff;
+    border: 0px transparent;
+    border-radius: 0.3rem;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.35s;
+    overflow: hidden;
+  }
+
+.button-mat:before {
+    content: "";
+    display: block;
+    background: black;
+    position: absolute;
+    width: 200%;
+    height: 500%;
+    border-radius: 100%;
+    transition: 0.36s cubic-bezier(0.4, 0, 1, 1);
+  }
+.button-mat:hover .button-text {
+    color: white;
+  }
+.button-mat:hover {
+    color: transparent;
+  }
+
+  .GD {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+.GD:before {
+    transform: translate(-110%, -110%) translateZ(0);
+  }
+.GD:hover:before {
+    transform: translate(-45%, -34%) translateZ(0);
+  }

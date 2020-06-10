@@ -14,6 +14,16 @@ sr.reveal('#logo',{
     distance: '50px',
     scale: '0.5',
     duration: 1000, /* 1000 = 1 seconde */
+
+    mobile: 'true', /* Pour le responsive */
+});
+
+sr.reveal('.logo',{
+    origin: 'top',
+    distance: '50px',
+    scale: '0.5',
+    duration: 1000, /* 1000 = 1 seconde */
+
     mobile: 'true', /* Pour le responsive */
 });
 

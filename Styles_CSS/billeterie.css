@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url("../Images/noir-noise.png");
+    background:white;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -89,7 +89,7 @@ a{
 .title-big {
     font-weight: normal;
     font-style: normal;
-    color: #fff;
+    color: black;
     font-size: 56px;
     text-transform: uppercase;
 }
@@ -125,7 +125,7 @@ a{
 }
 
 .ticket0:hover {
-    background-color: white;
+    background-color: lightgrey;
 }
 
 .ticket0:hover p {
@@ -295,7 +295,7 @@ a{
 .ticket-name {
     font-weight: normal;
     font-style: normal;
-    color: #fff;
+    color: black;
     font-size: 24px;
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
@@ -311,7 +311,7 @@ a{
     font-style: normal;
     padding-right: 65px;
     text-align: right;
-    color: #fff;
+    color: black;
     font-size: 22px;
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
@@ -608,3 +608,4 @@ button {
 
   }
 } 
+
