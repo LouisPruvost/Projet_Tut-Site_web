@@ -1,0 +1,215 @@
+body{
+    background-image: url("img/noir-noise.png");
+}
+
+a{
+    text-decoration: none;
+}
+
+.entete{
+    margin: auto;
+    height: 100px;
+}
+
+.entete-text{
+    font-size: 50px;
+    color: white;
+    z-index: 1;
+}
+
+.menuboutique {
+    width: 77%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#flex-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+    
+.magasin {
+    margin-right: auto;
+    display: flex;
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.panier{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#separateur{
+    border-right: solid lightgrey 1px;
+}
+
+.articles{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.articles > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.articles > div > div {
+    display: block;
+    text-align: center;
+    flex-basis: 21%;
+    margin-bottom: 20px;
+    background-color: white;
+    transition: 0.7s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+.articles > div > div:hover {
+    transform: translate3d(0,0,0) scale(1.10);   
+    transition-duration: 0.7s; 
+}
+
+.imgarticle {
+    width: 70%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.imgplus{
+    width: 10%;
+    margin: auto;;
+}
+
+.description{
+    font-size: 15px;
+    color: black;
+}
+
+.prix{
+    font-size: 20px;
+}
+
+.selection{
+    width: 77%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.MonPanier{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+}
+
+button {
+    border: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.95);
+    cursor: pointer;
+  }
+  
+.div-menu {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+.button-text {
+    color: black;
+    position: relative;
+    top: 0;
+    display: inline;
+    font-size: 1rem;
+    font-size: 700;
+    transition: 0.25s ease-in;
+    transition-delay: 0.1s;
+  }
+  
+.button {
+    padding: 0.7rem 3.5rem;
+    background: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    will-change: transform;
+  }
+  
+.button-mat {
+    color: black;
+    border: 0px transparent;
+    border-radius: 0.3rem;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.35s;
+    overflow: hidden;
+  }
+
+.button-mat:before {
+    content: "";
+    display: block;
+    background: black;
+    position: absolute;
+    width: 200%;
+    height: 500%;
+    border-radius: 100%;
+    transition: 0.36s cubic-bezier(0.4, 0, 1, 1);
+  }
+.button-mat:hover .button-text {
+    color: white;
+  }
+.button-mat:hover {
+    color: transparent;
+  }
+
+.GD {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+.GD:before {
+    transform: translate(-110%, -110%) translateZ(0);
+  }
+.GD:hover:before {
+    transform: translate(-45%, -34%) translateZ(0);
+  }
+
+.prixtotal{
+    background-color: white;
+    padding: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    text-align: right;    
+    border-radius: 15px;
+}
+
+.rowtotal{
+    font-size: 20px;
+}
+
