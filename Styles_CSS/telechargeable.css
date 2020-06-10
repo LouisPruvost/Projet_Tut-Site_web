@@ -31,7 +31,7 @@ h1{
     text-align: center;
     display: table-cell;
     vertical-align: middle;
-
+}
 h2 {
 	font-family: "LEMON MILK";
 	
@@ -106,6 +106,7 @@ a > div {
 	margin-top: 2rem;
 	max-height: 180px;
 	position: relative;
+	bottom: 0;
 
 }
 

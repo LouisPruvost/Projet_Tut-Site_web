@@ -1,3 +1,17 @@
+@font-face {
+
+    font-family: 'LEMON MILK';
+    src: url('../fonts/lemonmilk-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lemonmilk-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/lemonmilk-regular.woff2') format('woff2'), /* Modern Browsers */
+        url('../fonts/lemonmilk-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/lemonmilk-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/lemonmilk-regular.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +44,7 @@ body {
     margin-bottom: 2%;
 }
 
-#tete {
+.tete {
     padding-bottom: 10px;
     width: 20%;
     position: relative;
@@ -103,14 +117,6 @@ nav {
     border: solid black 5px;
 }
 
-h2 {
-    font-size: 150%;
-    font-weight: 900;
-    text-align: center;
-    padding-bottom: 3%;
-    text-decoration: underline;
-}
-
 hr {
     position: relative;
     display: block;
@@ -136,7 +142,7 @@ hr {
 
 .map div {
     flex-wrap: wrap;
-    border: solid black 5px;
+
     width: auto;
 }
 
@@ -196,6 +202,8 @@ button {
   }
   
 .button-text {
+    font-family: "LEMON MILK";
+    font-size: 70px;
     color: black;
     position: relative;
     top: 0;
@@ -260,3 +268,49 @@ button {
     transform: translate(-45%, -34%) translateZ(0);
   }
 
+  .footer {
+	background-color: rgb(0,0,0,0.8);
+	margin-top: 2rem;
+	max-height: 180px;
+	position: relative;
+
+}
+
+#fin {
+	width: 100%;
+	position: relative;
+	top: -35px;
+}
+
+.footer > div {
+	display: flex;
+	position: absolute;
+	top: 34%;
+	height: 50px;
+	left: 45%;
+
+	overflow: hidden;
+	
+
+}
+
+.footer > div > a {
+	height: 50px;
+	width: 100px;
+	margin-left: 0.5rem;
+	background-image: url("../photo_artist/insta.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.footer > div > a:hover {
+	background-position: top -50px left 0;
+}
+
+#fb {
+	background-image: url("../photo_artist/facebook-icon.png");
+}
+
+#tw {
+	background-image: url("../photo_artist/twitter.png");
+}

@@ -82,8 +82,9 @@ a {
 }
 
 .infos {
+	max-width: 1000px;
 	position: relative;
-	left: 15%;
+	left: 20%;
 }
 
 .sous-titres {
