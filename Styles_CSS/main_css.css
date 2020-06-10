@@ -313,4 +313,17 @@ button {
 
 #tw {
 	background-image: url("../photo_artist/twitter.png");
+
+
 }
+
+@media screen and (max-width: 1000px) { 
+  
+
+  .div-menu {
+    flex-direction: column;
+    max-height: 300px;
+
+  }
+} 
+

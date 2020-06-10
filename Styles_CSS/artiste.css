@@ -561,6 +561,7 @@ button {
     transform: translate(-45%, -34%) translateZ(0);
   }
 
+
   .footer {
 	background-color: rgb(0,0,0,0.8);
 	margin-top: 2rem;
@@ -608,12 +609,22 @@ button {
 	background-image: url("../photo_artist/twitter.png");
 }
 
+
 @media screen and (max-width: 1000px) { 
   .artistes {
   	max-width: 800px;
   	margin-left: 150px;
+    
+  }
+
+  .div-menu {
+    flex-direction: column;
+    max-height: 300px;
+
   }
 } 
+
+
 
 
 

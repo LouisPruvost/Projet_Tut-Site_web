@@ -6,7 +6,7 @@
 	left: 60%;
 	top: 80px;
 	border-radius: 6px;
-	height: 80%;
+	height: 82%;
 	overflow: hidden;
 	border: solid 2px rgb(96, 96, 96,1);
   	
@@ -163,3 +163,13 @@ h1{
     vertical-align: middle;
 
 }
+
+@media screen and (max-width: 1000px) { 
+  
+
+  .div-menu {
+    flex-direction: column;
+    max-height: 300px;
+
+  }
+} 

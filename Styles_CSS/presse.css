@@ -173,5 +173,10 @@ a > div:hover {
   .overlay2{
   	top: -1190px;
   }
-} 
 
+  .div-menu {
+    flex-direction: column;
+    max-height: 300px;
+
+  }
+} 

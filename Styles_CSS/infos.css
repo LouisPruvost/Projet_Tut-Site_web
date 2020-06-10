@@ -197,6 +197,16 @@ h1{
     vertical-align: middle;
 }
 
+@media screen and (max-width: 1000px) { 
+  
+
+  .div-menu {
+    flex-direction: column;
+    max-height: 300px;
+
+  }
+} 
+
 
 
 
