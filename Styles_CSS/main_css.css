@@ -3,21 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "LEMON MILK";
-
 }
 
 @font-face {
 
     font-family: 'LEMON MILK';
-    src: url('../fonts/lemonmilk-regular.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/lemonmilk-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('../fonts/lemonmilk-regular.woff2') format('woff2'), /* Modern Browsers */
-        url('../fonts/lemonmilk-regular.woff') format('woff'), /* Modern Browsers */
-        url('../fonts/lemonmilk-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('../fonts/lemonmilk-regular.svg') format('svg'); /* Legacy iOS */
+    src: url('../fonts/LEMONMILK-regular.otf'); /* IE9 Compat Modes */
+    src: url('../fonts/LEMONMILK-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/LEMONMILK-regular.woff2') format('woff2'), /* Modern Browsers */
+        url('../fonts/LEMONMILK-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/LEMONMILK-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/LEMONMILK-regular.svg') format('svg'); /* Legacy iOS */
     font-weight: normal;
     font-style: normal;
-
 };
 
 
