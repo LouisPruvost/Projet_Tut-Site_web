@@ -140,6 +140,7 @@ textarea:hover {
 
 #tw {
 	background-image: url("../photo_artist/twitter.png");
+
 }
 
 #box1{
@@ -160,4 +161,5 @@ h1{
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+
 }

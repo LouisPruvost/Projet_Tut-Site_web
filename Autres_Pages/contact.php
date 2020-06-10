@@ -68,10 +68,7 @@
                     <a id="tw" href="https://twitter.com/les_blanches"></a>
                     <a id="in" href="https://www.instagram.com/lesnuitsblanches_festival/"></a>
                 </div>
-
-
-
-            </section>
+     </section>
             <script src="https://unpkg.com/scrollreveal"></script>
             <script src="../Js/app.js"></script>
 </body>
