@@ -108,3 +108,36 @@ textarea:hover {
 	position: relative;
 	top: -35px;
 }
+
+.footer > div {
+	display: flex;
+	position: absolute;
+	top: 34%;
+	height: 50px;
+	left: 45%;
+
+	overflow: hidden;
+	
+
+}
+
+.footer > div > a {
+	height: 50px;
+	width: 100px;
+	margin-left: 0.5rem;
+	background-image: url("../photo_artist/insta.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.footer > div > a:hover {
+	background-position: top -50px left 0;
+}
+
+#fb {
+	background-image: url("../photo_artist/facebook-icon.png");
+}
+
+#tw {
+	background-image: url("../photo_artist/twitter.png");
+}
